@@ -47,7 +47,9 @@ public class LoginPage {
 	public RegistrationPage navigateToRegistrationPage() {
 		System.out.println("Navigate to Register Page");
 		elementUtil.doClick(registerLink);
+		System.out.println("Register Page");
 		return new RegistrationPage(driver);
+		
 	}
 
 }// End of class LoginPage
